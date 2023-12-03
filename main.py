@@ -32,8 +32,7 @@ def bruteforce(wordlist):
     st_dt = x.strftime("%Y/%m/%d")
     st_tm = x.strftime("%H:%M:%S")
     print(f"""===============================================================
-DirBomb v1.0
-by {colored('TheHackersBrain [Gaurav Raj]', 'green')}
+DirBomb v1.0 {colored('green')}
 ===============================================================
 [+] URL:           {h}
 [+] Wordlists:     {wordlist}
