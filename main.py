@@ -9,7 +9,6 @@ from termcolor import colored
 
 def banner():
     banner = colored(pyfiglet.figlet_format(' Dir Bomb', font='slant'), 'yellow')
-    #author = f"Author : {colored('TheHackersBrain [Gaurav Raj]', 'green')}"
     print(f"{banner}\n")
 
 def arguments():
